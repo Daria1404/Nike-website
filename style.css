@@ -6,32 +6,41 @@ header{
     width: 100%;
     background-color:#fff9f4 ;
     display: flex;
-    height: 100px;
+    height: 80px;
     align-items: center;
     justify-content: space-around;
     position: sticky;
     top: 0;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
+}
+@font-face {
+    font-family: Roboto;
+    src: url("./fonts/Roboto-VariableFont_wdth\,wght.ttf");
 }
 
+
 .nikelogo{
-  width: 130px;
+  width: 290px;
   margin-left: 100px;
+  
+  display: flex;
 }
 .nikelogo img{
     width: 130px;
 }
 .main{
-    width:190px;
-    margin-right: 300px;
-
+    margin-top: 15px;
 }
-.main a{
-    color: black;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 30px;
+.main span{
+    font-size: 27px;
     text-transform: uppercase;
+    font-weight: 100;
+    font-family: Roboto;
 }
+#span1{
+    color: #ff8367;
+}
+
 .navlinks{
    display: flex;
    margin-left: 110px;
