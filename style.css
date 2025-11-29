@@ -1,12 +1,16 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
+/* navbarstart */
 header{
     width: 100%;
     background-color:#fff9f4 ;
     display: flex;
-    height: 80px;
+    height: 65px;
     align-items: center;
     justify-content: space-around;
     position: sticky;
@@ -17,24 +21,21 @@ header{
     font-family: Roboto;
     src: url("./fonts/Roboto-VariableFont_wdth\,wght.ttf");
 }
-
-
 .nikelogo{
   width: 290px;
-  margin-left: 100px;
-  
+  margin-right: 100px;
   display: flex;
 }
 .nikelogo img{
     width: 130px;
 }
-.main{
-    margin-top: 15px;
+.logocontent{
+    margin-top: 10px;
 }
-.main span{
-    font-size: 27px;
+.logocontent span{
+    font-size: 22px;
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 500;
     font-family: Roboto;
 }
 #span1{
@@ -43,18 +44,79 @@ header{
 
 .navlinks{
    display: flex;
+   gap: 50px;
    margin-left: 110px;
     list-style: none;
-
-
-}
-.navlink li{
-    font-weight: 700;
-    padding: 0px 25px;
+   
 }
 .navlinks li a{
-    color: black;
+    color:rgba(0, 0, 0, .55);;
     text-decoration: none;
-    padding: 17px 36px 0px 0px;
-    font-size: 30px;
+    font-weight: bold;
+    font-family:Roboto ;
 }
+/* navbarend */
+/* nikereactstart */
+@font-face {
+    font-family: Robotocondensed;
+    src: url(./fonts/RobotoCondensed-VariableFont_wght.ttf);
+} 
+
+
+.nikereact{
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff9f4;
+    /* background-color: #ff8367; */
+}
+.nike{
+    width: 50%;
+    height: 600px;
+    /* background-color: blue; */
+}
+.nike img{
+   width: 82%;
+    height: 600px;
+    padding-left: 170px;
+}
+.nikecontent{
+    width: 600px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 160px;
+    font-family: roboto;
+    padding-right: 60px;
+}
+.nikecontent h1{
+    font-weight: 500;
+    font-size: 70px;
+    padding-right:40px ;
+    font-family:"RobotoCondensed";
+}
+#color{
+    color: #ff8367;
+}
+.nikecontent p{
+    margin-top: 13px;
+}
+.nikecontent button{
+    margin-top: 21px;
+    border: none;
+    outline: none;
+    background-color: #3D4FF3;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 15px;
+}
+/* nikereactend */
+/* shoesectionstart */
+.shoesection{
+    width: 100%;
+    background-color: #E5E5E5;
+    height: 800px;
+}
+/* shoesectionend */
