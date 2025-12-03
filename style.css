@@ -141,7 +141,7 @@ header{
     border-radius: 5px;
     font-weight: 540;
     font-size: 15px;
-    width: 21%;
+    width: 17%;
 }
 /* nikereactend */
 /* shoesectionstart */
@@ -152,7 +152,7 @@ header{
 .shoesection{
     width: 100%;
     background-color: #E5E5E5;
-    height: 1500px;   
+    height: 1390px;   
 }
 .h2div{
     width: 50%;
@@ -232,6 +232,8 @@ header{
 }
 .dollor button{
     margin-top: 15px;
+   margin-left: 90px;
+
 }
 .shoecontent p{
     /* margin-top: 10px; */
@@ -247,6 +249,55 @@ header{
     font-weight: 400;
 }
 /* shoesectionend */
+/* shoppingstart */
+.shopping{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: #E5E5E5;
+}
+.fit{
+    width: 40%;
+}
+.fit img{
+    width: 100%;
+    margin-left: 20px;
+}
+.shoppingcard1{
+    display: flex;
+    background-color: white;
+    padding: 20px 20px;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    border-radius: 10px;
+}
+.shoppingcard1 div{
+    width: 20%;
+}
+.shoppingcard1 div img{
+    width: 100%;
+}
+.shoppingcontent{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Roboto;
+}
+#shopcontent{
+width: 50%;
+}
+.shoppingcontent div{
+    width: 100%;
+}
+.shoppingcards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* shoppingend */
 
 /* media screens */
 @media screen and (max-width:480px) {
@@ -489,6 +540,8 @@ header{
       width: 100%;
       padding: 4px;
       font-size: 11px;
+       margin-left: 0px;
+       margin-top: 0px;
     }
     .shoebtn{
         position: relative;
